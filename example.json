@@ -1,0 +1,39 @@
+{
+  "k": 1,
+  "documents": {
+    "a": "delivery queue processing receipt retry delay alert",
+    "b": "retry retry retry",
+    "c": "restore snapshot backup",
+    "d": "delivery receipt queue"
+  },
+  "queries": [
+    {
+      "id": "retry-runbook",
+      "text": "retry",
+      "relevant": [
+        "b"
+      ]
+    },
+    {
+      "id": "retry-alert",
+      "text": "retry",
+      "relevant": [
+        "a"
+      ]
+    },
+    {
+      "id": "backup",
+      "text": "restore backup",
+      "relevant": [
+        "c"
+      ]
+    },
+    {
+      "id": "unanswered",
+      "text": "rotation",
+      "relevant": [
+        "d"
+      ]
+    }
+  ]
+}
